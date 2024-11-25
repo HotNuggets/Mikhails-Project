@@ -1,0 +1,159 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+  }
+  
+  .window {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    height: 70vh;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .leftPanel {
+    flex: 1;
+    background: url('https://www.example.com/your-image.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .rightPanel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    background: white;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .form img {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+  
+    &:hover {
+      background-color: #007bb5;
+    }
+  }
+  
+  .orDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+  
+    .stick {
+      flex: 1;
+      height: 1px;
+      background-color: #dbdbdb;
+    }
+  
+    .or {
+      margin: 0 10px;
+      font-size: 13px;
+      color: #8e8e8e;
+    }
+  }
+  
+  .facebook button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #385185;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  
+    img {
+      width: 20px;
+      margin-right: 10px;
+    }
+  
+    &:hover {
+      background-color: #2d3c71;
+    }
+  }
+  
+  .forgot a {
+    font-size: 12px;
+    color: #385185;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+  
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  
+  .sign-up {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  
+    .signup {
+      color: #0095f6;
+      font-weight: bold;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  

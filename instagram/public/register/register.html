@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Instagram</title>
+    <script src="./dist/register.js" defer></script>
+</head>
+<body>
+    
+        <div class="middlewindow">
+        <img src="https://static.cdninstagram.com/rsrc.php/v3/yv/r/KoLLpWDb4f6.png" alt="instagram logo" >
+        <p>Sign up to see photos and videos from your friends.</p>
+        <button><img src="../images/facebook.png" alt="facebook logo"><span>Log in with Facebook</span></button>
+        <div class="orDiv">
+            <div class="stick"></div>
+            <div class="or">OR</div>
+            <div class="stick"></div>
+        </div>
+            <form onsubmit="handleRegister(event)">
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="password" required>
+        <input type="text" name="fullname" placeholder="Full Name" required>
+        <input type="text" name="username" placeholder="username" required>
+        <p></p>
+        <button type="submit">Sign up</button>
+    </form>
+    </div>
+    <a href="../index.html">Login</a>
+</body>
+</html>

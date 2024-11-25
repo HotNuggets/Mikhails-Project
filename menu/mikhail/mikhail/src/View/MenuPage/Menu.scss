@@ -1,0 +1,13 @@
+.menuContainer {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .foodPanel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+  }
+  

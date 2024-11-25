@@ -1,0 +1,10 @@
+.pet {
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  width: fit-content;
+}
+.pet img {
+  max-height: 250px;
+}

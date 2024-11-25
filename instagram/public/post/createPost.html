@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Post</title>
+    <link rel="stylesheet" href="./dist/createPost.css">
+    <script src="./dist/createPost.js" defer></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="post">
+            <div class="form">
+                <form onsubmit="handleCreatePost(event)">
+                    <label for="caption">Add caption</label>
+                    <textarea type="text" id="content" placeholder="Add caption" required></textarea>
+
+                    <label for="imageurl">put image url here:</label>
+                    <input type="text" id="imageurl" placeholder="image url" required/>
+                    <button id="submit">Post</button>
+                    
+                </form>
+                
+               
+            </div>
+        </div>
+        <button id="discard">Discard</button>
+        
+    </main>
+</body>
+</html>

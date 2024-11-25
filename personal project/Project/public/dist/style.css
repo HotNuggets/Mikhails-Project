@@ -1,0 +1,10 @@
+body {
+  background-color: #e3e3e3;
+}
+
+.pet {
+  max-width: 300px;
+}
+.pet img {
+  width: 100%;
+}

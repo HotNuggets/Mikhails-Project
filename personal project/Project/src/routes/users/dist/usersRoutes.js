@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var express_1 = require("express");
+var setUser_1 = require("../../controllers/users/setUser");
+var getUser_1 = require("../../controllers/users/getUser");
+var loginMid_1 = require("../../controllers/middlwares/loginMid");
+var router = express_1["default"].Router();
+router.use(loginMid_1.checkUser);
+router.post("/login", setUser_1.login).post("/register", setUser_1.register).get("/getUser", getUser_1.getUser);
+router.get("/get-user-pets", getUser_1.getUserPets);
+exports["default"] = router;

@@ -1,0 +1,24 @@
+.homeContainer {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  

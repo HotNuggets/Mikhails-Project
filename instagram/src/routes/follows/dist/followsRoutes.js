@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var express_1 = require("express");
+var addFollow_1 = require("../../controllers/followers/addFollow");
+var unfollow_1 = require("../../controllers/followers/unfollow");
+var getFollowers_1 = require("../../controllers/followers/getFollowers");
+var router = express_1["default"].Router();
+router.post("/follow", addFollow_1.followUser);
+router["delete"]("/unfollow", unfollow_1.unfollowUser);
+router.get("/getFollowers", getFollowers_1.getFollowingList);
+exports["default"] = router;

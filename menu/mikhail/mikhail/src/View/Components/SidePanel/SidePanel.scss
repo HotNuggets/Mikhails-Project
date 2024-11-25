@@ -1,0 +1,24 @@
+.sidePanel {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #777;
+  }
+  

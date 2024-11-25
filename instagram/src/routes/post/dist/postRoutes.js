@@ -1,0 +1,11 @@
+"use strict";
+exports.__esModule = true;
+var express_1 = require("express");
+var createPost_1 = require("../../controllers/post/createPost");
+var commentOnPost_1 = require("../../controllers/post/commentOnPost");
+var getPosts_1 = require("../../controllers/post/getPosts");
+var like_1 = require("../../controllers/post/like");
+var profilePosts_1 = require("../../controllers/post/profilePosts");
+var router = express_1["default"].Router();
+router.post('/createPost', createPost_1.createPost).post('/addComment', commentOnPost_1.createComment).get('/getPosts', getPosts_1.getPosts).post('/like', like_1.likePost).get('/profile/:userId', profilePosts_1.getProfilePosts);
+exports["default"] = router;

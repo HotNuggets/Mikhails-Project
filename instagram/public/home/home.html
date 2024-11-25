@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./dist/home.js" defer></script>
+    <link rel="stylesheet" href="./dist/home.css">
+</head>
+<body onload="displayFollowedPosts()">
+    <header>
+        <div class="userCard">
+            
+        </div>
+        <div class="search">
+            <div class="searchForm">
+                <form onsubmit="findUserName(event)" id="form">
+                    <input type="text" id="username-search" name="username" placeholder="search username" />
+                    <button type="submit">Search</button>
+                 
+                </form>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="https://static.cdninstagram.com/rsrc.php/v3/yv/r/KoLLpWDb4f6.png"></img>
+        </div>
+    </header>
+    <main >
+        <h1>Home- Instagram</h1>
+        <div id="userName" ></div>
+        <button id="create-Post">Create Post</button>
+       <div id="postsContainer"></div>
+        
+        
+    </main>
+   
+</body>
+</html>

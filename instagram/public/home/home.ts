@@ -111,7 +111,7 @@ async function displayFollowedPosts() {
         if (jsonResponse.posts) {
             const postsContainer = document.getElementById('postsContainer') as  HTMLDivElement;
 
-            postsContainer.innerHTML = ''; // Clear any existing posts
+            postsContainer.innerHTML = ''; 
 
             jsonResponse.posts.forEach(post => {
                 const postElement = document.createElement('div');
